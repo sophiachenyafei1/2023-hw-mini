@@ -62,6 +62,8 @@ Note: when running the code in MicroPython with Thonny, when typing the input re
 Before running the exercise01.py program, about how long do you think the program above will take to run?
 Did you have the right answer -- what does the program print out?
 
+Answer: I suppose the program will take 20 seconds, which is loop number * sleep time, but it actually takes 20.002 seconds to run.
+
 ### Question 02
 
 What do the "int" and "float" notation mean?
@@ -70,6 +72,10 @@ Will the program run if these notations are removed or incorrect?
 
 [Reference](https://docs.python.org/3/library/typing.html)
 
+Answer: "int" means a variable is an integer and "float" means the variable is a decimal, but the program will still run if these notations are removed or incorrect because Python can infer the type of a variable from its value.
+
 ### Question 03
 
 Why is "time.ticks_diff(toc, tic)" used to determine elapsed time instead of "toc - tic"?
+
+Answer: 
