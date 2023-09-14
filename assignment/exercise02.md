@@ -29,14 +29,18 @@ To download a file that you've edited on the Pico back to your computer to uploa
 
 Why do you think we would use a file (e.g. JSON file) for parameter storage instead of accepting the parameters as user `input()`, especially on an embedded system?
 
-Answer: 
+Answer: Files are used to store parameters because they are more easily parsed and can be easily edited.
 
 ### Question 02
 
 Why might we prefer to use a JSON file to store parameters instead of hard-coding values in the Python script?
+
+Answer: JSON files are easy to read and write. Because each document is treated as an individual object, they are easier to edit for different cases and easier to share between people.
 
 ### Question 03
 
 Why didn't the exercise02.py code use
 [os.path.isfile](https://docs.python.org/3/library/os.path.html#os.path.isfile),
 that is, why did I write the "is_regular_file()" function?
+
+Answer: 
