@@ -29,6 +29,8 @@ To download a file that you've edited on the Pico back to your computer to uploa
 
 Why do you think we would use a file (e.g. JSON file) for parameter storage instead of accepting the parameters as user `input()`, especially on an embedded system?
 
+Answer: 
+
 ### Question 02
 
 Why might we prefer to use a JSON file to store parameters instead of hard-coding values in the Python script?
