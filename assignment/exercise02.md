@@ -43,4 +43,4 @@ Why didn't the exercise02.py code use
 [os.path.isfile](https://docs.python.org/3/library/os.path.html#os.path.isfile),
 that is, why did I write the "is_regular_file()" function?
 
-Answer: os.path.isfile(path) only checks if the file exits, but os.stat(path)[0] checks if it has the right type and mode. 
+Answer: os.path.isfile(path) only checks if the file exits, but os.stat(path)[0] also checks if it has the right type and mode. 
