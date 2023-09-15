@@ -24,3 +24,5 @@ Suppose I want to add additional code that requires me to increase sample time, 
 What is the tradeoff when I increase sample time relative to the "dot_dash_threshold" value?
 Try this by increasing "sample_ms" in exercise3.json on the Pico.
 The effect should be quite noticeable.
+
+Answer: Increasing "sample_ms" increases the time between recording a word and playing back the word, while increasing "dot_dash_threshold" requires us to wait longer after each letter for it to be recorded.
